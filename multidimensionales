@@ -1,0 +1,14 @@
+tablasMultidim1: tablasMultidim1.c 
+	gcc -W -Wall -o tablasMultidim1 tablasMultidim1.c
+	
+tablasMultidim2: tablasMultidim2.c 
+	gcc -W -Wall -o tablasMultidim2 tablasMultidim2.c
+	
+tablasMultidim3: tablasMultidim3.c 
+	gcc -W -Wall -o tablasMultidim3 tablasMultidim3.c
+	
+borra: 
+	rm  tablasMultidim1
+	rm  tablasMultidim2
+	rm  tablasMultidim3
+
